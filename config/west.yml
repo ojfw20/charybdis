@@ -3,9 +3,10 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/ojfw20
   projects:
-    - name: zmkTrackballFork
+    - name: zmk
       remote: zmkfirmware
       revision: fix-mouse-click-jitter
+      repo-path: zmkTrackballFork
       import: app/west.yml
   self:
     path: config

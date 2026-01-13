@@ -1,11 +1,11 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/Amos698
+      url-base: https://github.com/ojfw20
   projects:
-    - name: zmk
+    - name: zmkTrackballFork
       remote: zmkfirmware
-      revision: feature-test
+      revision: fix-mouse-click-jitter
       import: app/west.yml
   self:
     path: config

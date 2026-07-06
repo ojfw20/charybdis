@@ -1,11 +1,12 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/Amos698
+      url-base: https://github.com/ojfw20
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: feature-test
+      revision: 289ef1c7fa9bbf0f806ad51289443e31d5d561fc
+      repo-path: zmkTrackballFork
       import: app/west.yml
   self:
     path: config

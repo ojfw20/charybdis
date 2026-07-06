@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: 289ef1c7fa9bbf0f806ad51289443e31d5d561fc
+      revision: 9c317f7a83ab1856fac5e5677cdd18449409eb08
       repo-path: zmkTrackballFork
       import: app/west.yml
   self:

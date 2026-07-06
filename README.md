@@ -10,9 +10,9 @@ ZMK config for my wireless Charybdis nano: two nice!nano v2 halves over Bluetoot
 ## Build
 1. Actions tab -> "Build ZMK firmware" -> pick the branch -> Run/Re-run.
 2. Download the `firmware` artifact. It contains:
-   - `nice_nano_v2-charybdis_left-zmk.uf2`
-   - `nice_nano_v2-charybdis_right-zmk.uf2`
-   - `nice_nano_v2-settings_reset-zmk.uf2`
+   - `charybdis_left-nice_nano_v2-zmk.uf2`
+   - `charybdis_right-nice_nano_v2-zmk.uf2`
+   - `settings_reset-nice_nano_v2-zmk.uf2`
 
 Artifacts expire after 90 days, so re-run the build when you need fresh ones.
 

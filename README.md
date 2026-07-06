@@ -4,7 +4,7 @@ ZMK config for my wireless Charybdis nano: two nice!nano v2 halves over Bluetoot
 
 ## Hardware
 - Controller: nice!nano v2 (nRF52840) on each half.
-- Split: direct BLE, no dongle. Left is the central (talks to the host), right is the peripheral and carries the PMW3610 trackball.
+- Split: direct BLE, no dongle. The right half is the central (talks to the host) and carries the PMW3610 trackball; the left half is the peripheral.
 - ZMK comes from my own fork `ojfw20/zmkTrackballFork`, pinned by commit in `config/west.yml` (trackball driver, jitter fix, and the rotation option below).
 
 ## Build

@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: fix-mouse-click-jitter
+      revision: 289ef1c7fa9bbf0f806ad51289443e31d5d561fc
       repo-path: zmkTrackballFork
       import: app/west.yml
   self:
